@@ -1,0 +1,393 @@
+[
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1ZFCA0"
+        },
+        "Id": "0Adf4000001D1ZFCA0",
+        "AuraDefinitionBundleId": "0Abf4000000AzQgCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQgCAK"
+            },
+            "DeveloperName": "CreateAppointment"
+        },
+        "DefType": "SVG",
+        "Format": "SVG"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1YlCAK"
+        },
+        "Id": "0Adf4000001D1YlCAK",
+        "AuraDefinitionBundleId": "0Abf4000000AzQgCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQgCAK"
+            },
+            "DeveloperName": "CreateAppointment"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1ZACA0"
+        },
+        "Id": "0Adf4000001D1ZACA0",
+        "AuraDefinitionBundleId": "0Abf4000000AzQgCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQgCAK"
+            },
+            "DeveloperName": "CreateAppointment"
+        },
+        "DefType": "DOCUMENTATION",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1Z0CAK"
+        },
+        "Id": "0Adf4000001D1Z0CAK",
+        "AuraDefinitionBundleId": "0Abf4000000AzQgCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQgCAK"
+            },
+            "DeveloperName": "CreateAppointment"
+        },
+        "DefType": "DESIGN",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1YvCAK"
+        },
+        "Id": "0Adf4000001D1YvCAK",
+        "AuraDefinitionBundleId": "0Abf4000000AzQgCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQgCAK"
+            },
+            "DeveloperName": "CreateAppointment"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1YgCAK"
+        },
+        "Id": "0Adf4000001D1YgCAK",
+        "AuraDefinitionBundleId": "0Abf4000000AzQgCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQgCAK"
+            },
+            "DeveloperName": "CreateAppointment"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1YqCAK"
+        },
+        "Id": "0Adf4000001D1YqCAK",
+        "AuraDefinitionBundleId": "0Abf4000000AzQgCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQgCAK"
+            },
+            "DeveloperName": "CreateAppointment"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1Z5CAK"
+        },
+        "Id": "0Adf4000001D1Z5CAK",
+        "AuraDefinitionBundleId": "0Abf4000000AzQgCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQgCAK"
+            },
+            "DeveloperName": "CreateAppointment"
+        },
+        "DefType": "RENDERER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1a3CAC"
+        },
+        "Id": "0Adf4000001D1a3CAC",
+        "AuraDefinitionBundleId": "0Abf4000000AzQvCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQvCAK"
+            },
+            "DeveloperName": "Appointment"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1ZtCAK"
+        },
+        "Id": "0Adf4000001D1ZtCAK",
+        "AuraDefinitionBundleId": "0Abf4000000AzQvCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQvCAK"
+            },
+            "DeveloperName": "Appointment"
+        },
+        "DefType": "DOCUMENTATION",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1ZeCAK"
+        },
+        "Id": "0Adf4000001D1ZeCAK",
+        "AuraDefinitionBundleId": "0Abf4000000AzQvCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQvCAK"
+            },
+            "DeveloperName": "Appointment"
+        },
+        "DefType": "APPLICATION",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1a8CAC"
+        },
+        "Id": "0Adf4000001D1a8CAC",
+        "AuraDefinitionBundleId": "0Abf4000000AzQvCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQvCAK"
+            },
+            "DeveloperName": "Appointment"
+        },
+        "DefType": "SVG",
+        "Format": "SVG"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1ZjCAK"
+        },
+        "Id": "0Adf4000001D1ZjCAK",
+        "AuraDefinitionBundleId": "0Abf4000000AzQvCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQvCAK"
+            },
+            "DeveloperName": "Appointment"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1ZyCAK"
+        },
+        "Id": "0Adf4000001D1ZyCAK",
+        "AuraDefinitionBundleId": "0Abf4000000AzQvCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQvCAK"
+            },
+            "DeveloperName": "Appointment"
+        },
+        "DefType": "RENDERER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001D1ZoCAK"
+        },
+        "Id": "0Adf4000001D1ZoCAK",
+        "AuraDefinitionBundleId": "0Abf4000000AzQvCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000AzQvCAK"
+            },
+            "DeveloperName": "Appointment"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001DCkICAW"
+        },
+        "Id": "0Adf4000001DCkICAW",
+        "AuraDefinitionBundleId": "0Abf4000000B36KCAS",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000B36KCAS"
+            },
+            "DeveloperName": "FullCalendar"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001DCkNCAW"
+        },
+        "Id": "0Adf4000001DCkNCAW",
+        "AuraDefinitionBundleId": "0Abf4000000B36KCAS",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000B36KCAS"
+            },
+            "DeveloperName": "FullCalendar"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001DCkmCAG"
+        },
+        "Id": "0Adf4000001DCkmCAG",
+        "AuraDefinitionBundleId": "0Abf4000000B36KCAS",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000B36KCAS"
+            },
+            "DeveloperName": "FullCalendar"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001DCkXCAW"
+        },
+        "Id": "0Adf4000001DCkXCAW",
+        "AuraDefinitionBundleId": "0Abf4000000B36KCAS",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000B36KCAS"
+            },
+            "DeveloperName": "FullCalendar"
+        },
+        "DefType": "DESIGN",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001DCkSCAW"
+        },
+        "Id": "0Adf4000001DCkSCAW",
+        "AuraDefinitionBundleId": "0Abf4000000B36KCAS",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000B36KCAS"
+            },
+            "DeveloperName": "FullCalendar"
+        },
+        "DefType": "RENDERER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001DCkcCAG"
+        },
+        "Id": "0Adf4000001DCkcCAG",
+        "AuraDefinitionBundleId": "0Abf4000000B36KCAS",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000B36KCAS"
+            },
+            "DeveloperName": "FullCalendar"
+        },
+        "DefType": "DOCUMENTATION",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001DCkhCAG"
+        },
+        "Id": "0Adf4000001DCkhCAG",
+        "AuraDefinitionBundleId": "0Abf4000000B36KCAS",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000B36KCAS"
+            },
+            "DeveloperName": "FullCalendar"
+        },
+        "DefType": "SVG",
+        "Format": "SVG"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v42.0/tooling/sobjects/AuraDefinition/0Adf4000001DCkrCAG"
+        },
+        "Id": "0Adf4000001DCkrCAG",
+        "AuraDefinitionBundleId": "0Abf4000000B36KCAS",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v42.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000B36KCAS"
+            },
+            "DeveloperName": "FullCalendar"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    }
+]

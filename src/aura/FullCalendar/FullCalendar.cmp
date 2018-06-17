@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable">
+	<ltng:require scripts="{!join(',',$Resource.JQuery, $Resource.fullCalendarMinJS)}"
+    afterScriptsLoaded="{!c.doInit}" 
+    styles="{!join(',',
+       $Resource.fullCalendarPrintCSS,
+       $Resource.fullCalendarCSS)}" />
+	<div id="calendar"></div>
+</aura:component>

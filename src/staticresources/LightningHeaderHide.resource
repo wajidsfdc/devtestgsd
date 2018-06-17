@@ -1,0 +1,1 @@
+.slds-global-header__item--search{ display: none; }

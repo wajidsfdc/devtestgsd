@@ -1,0 +1,24 @@
+<apex:page showHeader="false" sidebar="false" standardController="Lead" standardStylesheets="false">
+
+    <apex:includeLightning />
+   
+    <div id="myDivId"> 
+    </div>
+ 
+    <script>
+        
+ 
+        $Lightning.use("c:Appointment", function() {
+        $Lightning.createComponent(
+            "c:CreateAppointment",
+            {recordId : '{!Lead.Id}'},
+            "myDivId",
+            function(cmp) {
+                //alert("this is gend");
+                console.log('component created');
+                //console.log(cmp);
+            });
+        });
+     </script>
+ 
+</apex:page>

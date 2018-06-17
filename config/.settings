@@ -1,0 +1,18 @@
+{
+    "projectName": "devtest",
+    "username": "devtestgsd@gmail.com",
+    "id": "49696a80-5db1-11e8-a0cc-33ab3d28399d",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://na59.salesforce.com",
+    "workspace": "C:\\Users\\wajid\\Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "AuraDefinitionBundle",
+        "StaticResource"
+    ]
+}
