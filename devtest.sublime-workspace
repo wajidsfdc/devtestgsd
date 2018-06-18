@@ -11,7 +11,7 @@
 			"file": "src/aura/CreateAppointment/CreateAppointmentController.js",
 			"settings":
 			{
-				"buffer_size": 8546,
+				"buffer_size": 9675,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -20,7 +20,7 @@
 			"file": "src/aura/CreateAppointment/CreateAppointmentHelper.js",
 			"settings":
 			{
-				"buffer_size": 15200,
+				"buffer_size": 8181,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -29,19 +29,16 @@
 			"file": "src/aura/CreateAppointment/CreateAppointment.css",
 			"settings":
 			{
-				"buffer_size": 615,
+				"buffer_size": 614,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "pa<aura:component controller=\"FullCalendarController\" access=\"global\"  implements=\"force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickActionWithoutHeader,force:hasSObjectName\">\n\t<ltng:require styles=\"{!$Resource.fullCalendarCSS}\"\n\t scripts=\"{!join(',',FullCalendarMoment, $Resource.JQuery, $Resource.FullCalendarJS )}\"\n    afterScriptsLoaded=\"{!c.afterScriptsLoaded}\" />\n\n   <aura:attribute name=\"events\" type=\"sobject[]\"/>\n    <aura:attribute name=\"event\" type=\"sobject\" default=\"{\n    \t  'sobjectType' : 'Event'  \n\n    \t}\"  />\n      <aura:attribute name=\"showAs\" type=\"String\"/>\n      <aura:attribute name=\"showAsChoice\" type=\"String[]\" default=\"Busy, Out of Office, Free\"/>\n\n      <aura:attribute name=\"subject\" type=\"String\" default = \"Appointment\"/>\n      <aura:attribute name=\"subjectChoice\" type=\"String[]\" default=\"Call, Email, Meeting, Appointment, Send Letter/Quote, Other\"/>\n\n      <aura:attribute name=\"Day\" type=\"String\"/>\n      <aura:attribute name=\"Month\" type=\"String\"/>\n      <aura:attribute name=\"Year\" type=\"String\"/>\n      <aura:attribute name=\"Hours\" type=\"String[]\"/>\n      <aura:attribute name=\"Minutes\" type=\"String[]\" default=\"00,30\"/>\n      <aura:attribute name=\"Seconds\" type=\"String[]\"/>\n      <aura:attribute name=\"AMPMChoice\" type=\"String[]\" default=\"AM,PM\"/>\n      <aura:attribute name=\"Hour\" type=\"String\" />\n      \n\n      <aura:attribute name=\"Minute\" type=\"String\" />\n      <aura:attribute name=\"AMORPM\"  type=\"String\"/>\n       <aura:attribute name=\"endHour\" type=\"String\" default=\"00\"/>\n      \n      <aura:attribute name=\"endMinute\" type=\"String\" />\n      <aura:attribute name=\"endAMORPM\"  type=\"String\"/>\n      <aura:attribute name=\"recordId\" type=\"String\"/>\n      <aura:attribute name=\"displayForm\" type=\"Boolean\" default=\"false\"/>\n      <aura:attribute name=\"lead\" type=\"sobject\" default=\"{'sobjectType' : 'Lead'}\"/>\n      \n   <div aura:id = \"custinfo\">\n     <div class = \"slds-page-header slds-page-header_object-home\">\n\n    <lightning:layout >\n      <lightning:layoutItem >\n         <lightning:icon iconName=\"standard:event\" />\n\n      </lightning:layoutItem>\n      <lightning:layoutItem class=\"slds-p-left--small slds-p-top--small\"  >\n        <p class = \"slds-text-title_caps\">Create New Appointment</p>\n        \n      </lightning:layoutItem>\n    </lightning:layout>\n    <lightning:card title=\"Customer Information\">\n      <lightning:layout >\n        <lightning:layoutItem >\n           <p class = \"slds-p-left--medium\"><b>First Name</b> : {!v.lead.FirstName}</p>\n\n           \n        </lightning:layoutItem>\n        <lightning:layoutItem >\n           <div style = \"padding-left:800px; slds-p-around--small\"><b>Last Name</b> : {!v.lead.LastName}</div>\n           \n           \n        </lightning:layoutItem>\n        \n      </lightning:layout>\n      <lightning:layout >\n      <lightning:layoutItem >\n           <p class = \"slds-p-around--medium\"><b>Street Address</b> : {!v.lead.Street}</p>\n\n           \n        </lightning:layoutItem>\n      </lightning:layout>\n       <lightning:layout >\n      <lightning:layoutItem >\n            <p class = \"slds-p-top--xx-small slds-p-left--medium\"><b>City</b>: {!v.lead.City}</p>\n\n           \n        </lightning:layoutItem>\n        <lightning:layoutItem >\n            <p class = \"slds-p-top--xx-small slds-p-left--medium\"><b>State</b>: {!v.lead.State}</p>\n\n           \n        </lightning:layoutItem>\n        <lightning:layoutItem >\n            <p class = \"slds-p-top--xx-small slds-p-left--medium\"><b>ZipCode</b>: {!v.lead.PostalCode}</p>\n\n           \n        </lightning:layoutItem>\n      </lightning:layout>\n\n    </lightning:card>\n    <lightning:card title=\"Lead Owner:\">\n      <lightning:layout >\n        <lightning:layoutItem >\n           <p class = \"slds-p-left--medium\"><b>First Name</b> : {!v.lead.Owner.FirstName}</p>\n\n           \n        </lightning:layoutItem>\n        <lightning:layoutItem >\n           <div style = \"padding-left:800px; slds-p-around--small\"><b>Last Name</b> : {!v.lead.Owner.LastName}</div>\n           \n           \n        </lightning:layoutItem>\n        \n      </lightning:layout>\n    \n       <lightning:layout >\n      <lightning:layoutItem >\n            <p class = \"slds-p-top--xx-small slds-p-left--medium\"><b>Phone Number</b>: {!v.lead.Owner.Phone}</p>\n\n           \n        </lightning:layoutItem>\n        <lightning:layoutItem >\n            <p style = \"padding-left:810px;\"><b>Email Address</b>: {!v.lead.Owner.Email}</p>\n\n           \n        </lightning:layoutItem>\n        \n      </lightning:layout>\n\n    </lightning:card>\n  </div>\n   </div>  \n     \n\n\t<div aura:id=\"calendar\" class = \"slds-p-around--medium\">\n       \n\t</div>\n    \n\t <div aura:id = \"dayview\" class = \"dayClickWindow\">\n    \n    <lightning:card title=\"Create Event\" class=\"slds-text-align--center\"  > \n\t\t<fieldset class = \"slds-box  slds-container--medium\">\n\t\t  <form class = \"slds-form--horizontal\">\n\t\t\t  \n\t\t\t          <p class = \"slds-text-align--left slds-p-top--small\">Assigned To : {!v.lead.Owner.FirstName + ' ' + v.lead.Owner.LastName}   </p>\n                <p class = \"slds-text-align--left slds-p-top--small\">Initial Appointment Date : {!v.Month+1 +'/'+v.Day+'/'+v.Year}</p>\n                 <div class = \"slds-grid slds-p-top--small\">\n                      \n                      <div class = \"  width slds-text-align--left\" >Start : </div>\n\n                      <div class = \"slds-text-align--left width3\" >\n                        \n                          \n                        <lightning:select aura:id=\"hour_opt\"\n                                          value=\"{!v.Hour}\"\n                                          label=\"\"\n                                          name=\"hour_opt\" \n                                           onchange=\"{!c.handleSelectHour}\"     >\n                            <option  value=\"\" >Hour</option>\n                            <aura:iteration items=\"{!v.Hours}\" var=\"h\">\n                                <option  value=\"{!h}\">{!h}</option>\n                            </aura:iteration>\n\n                        </lightning:select>\n                    \n                    </div>\n                    \n                    <div class = \"slds-text-align--left width3 \">\n                         <lightning:select aura:id=\"minute_opt\"\n                                          value=\"{!v.Minute}\"\n                                          name=\"minute_opt\" \n                                          label=\"\"\n                                          onchange=\"{!c.handleSelectMinute}\" >\n                            <option value=\"\">Minute</option>\n                            <aura:iteration items=\"{!v.Minutes}\" var=\"m\">\n                                <option value=\"{!m}\">{!m}</option>\n                            </aura:iteration>\n\n                        </lightning:select>\n                    </div>\n                    \n                    <div class = \"slds-text-align--left width3\" >\n                         <lightning:select aura:id=\"ampm_opt\"\n                                          value=\"{!v.AMORPM}\"\n                                          name=\"ampm_opt\" label=\"\"\n                                          onchange=\"{!c.handleAMorPMCheck}\">\n                            <option value=\"\">AM/PM</option>\n                            <aura:iteration items=\"{!v.AMPMChoice}\" var=\"t\">\n                                <option  value=\"{!t}\">{!t}</option>\n                            </aura:iteration>\n\n                        </lightning:select>\n                    </div>\n                    </div>\n                     <div class = \"slds-grid slds-p-top--small\">\n                      <div class = \" width slds-text-align--left\">End</div>\n                      \n                      <div class = \"slds-text-align--left width3\">\n                        \n                          \n                        <lightning:select aura:id=\"endhour_opt\"\n                                          value=\"{!v.endHour}\"\n                                          label=\"\"\n                                          name=\"endhour_opt\" \n                                           onchange=\"{!c.handleSelectHour}\"    >\n                            <option  value=\"\" >Hour</option>\n                            <aura:iteration items=\"{!v.Hours}\" var=\"h\">\n                                <option  value=\"{!h}\">{!h}</option>\n                            </aura:iteration>\n\n                        </lightning:select>\n                    \n                    </div>\n                    \n                    <div class = \"slds-text-align--left width3\">\n                         <lightning:select aura:id=\"endminute_opt\"\n                                          value=\"{!v.endMinute}\"\n                                          name=\"endminute_opt\" \n                                          label=\"\"\n                                          onchange=\"{!c.handleSelectMinute}\">\n                            <option value=\"\">Minute</option>\n                            <aura:iteration items=\"{!v.Minutes}\" var=\"m\">\n                                <option  value=\"{!m}\">{!m}</option>\n                            </aura:iteration>\n\n                        </lightning:select>\n                    </div>\n                   \n                    <div class = \"slds-text-align--left width3\" >\n                         <lightning:select aura:id=\"endampm_opt\"\n                                          value=\"{!v.endAMORPM}\"\n                                          name=\"endampm_opt\" label=\"\"\n                                           onchange=\"{!c.handleAMorPMCheck}\">\n                            <option value=\"\">AM/PM</option>\n                            <aura:iteration items=\"{!v.AMPMChoice}\" var=\"t\">\n                                <option  value=\"{!t}\">{!t}</option>\n                            </aura:iteration>\n\n                        </lightning:select>\n                    </div>\n\n\n                    </div>\n                    \n                <p class = \" slds-p-top--small slds-text-align--left\">Email: {!v.lead.Email} </p> \n                 <p class = \" slds-p-top--small slds-text-align--left\">Phone: {!v.lead.Phone} </p> \n                    <div class = \"slds-grid slds-p-top--small slds-text-align--left\">\n                      \n                        <p class = \"width2\">Subject</p> \n\n                        <lightning:select class= \"width4\"\n                                          aura:id=\"subject_opt\"\n                                          value=\"{!v.subject}\"\n                                          label = \"\"\n                                          name=\"subject_opt\"  onchange=\"{!c.handleSubject}\" >\n                            <option  value=\"\" >{!v.subject}</option>\n                            <aura:iteration items=\"{!v.subjectChoice}\" var=\"s\">\n                                <option  value=\"{!s}\">{!s}</option>\n                            </aura:iteration>\n\n                        </lightning:select>\n                     </div>\n                  \n                   \n                   \n                    <div class = \"slds-grid slds-p-top--small slds-text-align--left\">\n                      \n                        <p class = \" width2 \">Show time as</p> \n                        <lightning:select class= \"width4\"\n                                          aura:id=\"showAs_opt\"\n                                          value=\"{!v.showAs}\"\n                                          label=\"\"\n                                          name=\"hour_opt\" onchange=\"{!c.handleShowAs}\" >\n                            <option  value=\"\" >..Show Time As...</option>\n                            <aura:iteration items=\"{!v.showAsChoice}\" var=\"st\">\n                                <option  value=\"{!st}\">{!st}</option>\n                            </aura:iteration>\n\n                        </lightning:select>\n                      </div>\n                       <p class = \"  slds-p-top--small  slds-text-align--left\">Location: {!v.lead.City}</p> \n                   \n               <lightning:layout>\n                <lightning:layoutItem class=\"slds-align_absolute-center slds-p-top--small\"  >\n                \n                    <lightning:button name=\"Submit\" label=\"Save Appointment\" variant=\"Brand\"   onclick=\"{!c.submitTime}\"/>\n                \n                  </lightning:layoutItem>\n                  <lightning:layoutItem  class=\"slds-align_absolute-center slds-p-top--small\" >\n                  \n                     <lightning:button name=\"cancel\" label=\"Cancel\" variant=\"Brand\"   onclick=\"{!c.cancel}\"/>\n                 \n                 </lightning:layoutItem>\n               </lightning:layout>\n\t\t  </form>\n\t\t</fieldset>\n\t\t</lightning:card> \n\n\t</div>\n   \n</aura:component>",
 			"file": "src/aura/CreateAppointment/CreateAppointment.cmp",
-			"file_size": 12800,
-			"file_write_time": 131737236103147096,
 			"settings":
 			{
-				"buffer_size": 12802,
+				"buffer_size": 13406,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -190,7 +187,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8546,
+						"buffer_size": 9675,
 						"regions":
 						{
 						},
@@ -220,7 +217,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15200,
+						"buffer_size": 8181,
 						"regions":
 						{
 						},
@@ -250,7 +247,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 615,
+						"buffer_size": 614,
 						"regions":
 						{
 						},
@@ -280,7 +277,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12802,
+						"buffer_size": 13406,
 						"regions":
 						{
 						},

@@ -97,6 +97,20 @@
         "type": "StaticResource",
         "mmState": "clean"
     },
+    "DistanceResponse.resource": {
+        "createdById": "005f4000001sjotAAA",
+        "createdByName": "wajid Abdhulla",
+        "createdDate": "2018-06-17T22:11:03.000Z",
+        "fileName": "unpackaged/staticresources/DistanceResponse.resource",
+        "fullName": "DistanceResponse",
+        "id": "081f4000001usgBAAQ",
+        "lastModifiedById": "005f4000001sjotAAA",
+        "lastModifiedByName": "wajid Abdhulla",
+        "lastModifiedDate": "2018-06-17T22:11:03.000Z",
+        "manageableState": "unmanaged",
+        "type": "StaticResource",
+        "mmState": "clean"
+    },
     "JQuery.resource": {
         "createdById": "005f4000001sjotAAA",
         "createdByName": "wajid Abdhulla",
@@ -526,7 +540,7 @@
         "id": "01pf400000H8INyAAN",
         "lastModifiedById": "005f4000001sjotAAA",
         "lastModifiedByName": "wajid Abdhulla",
-        "lastModifiedDate": "2018-06-17T20:47:57.000Z",
+        "lastModifiedDate": "2018-06-17T22:39:00.000Z",
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"

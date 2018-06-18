@@ -1,4 +1,4 @@
-<aura:component  access="global"  implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickActionWithoutHeader,force:hasSObjectName">
+<aura:component controller="CreateAppointmentController"  access="global"  implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickActionWithoutHeader,force:hasSObjectName">
 	<ltng:require styles="{!join(',',$Resource.fullCalendarCSS, $Resource.LightningHeaderHide)}"
 	 scripts="{!join(',',$Resource.FullCalendarMoment, $Resource.JQuery, $Resource.FullCalendarJS )}"
     afterScriptsLoaded="{!c.afterScriptsLoaded}" />
@@ -17,7 +17,7 @@
       <aura:attribute name="showAsChoice" type="String[]" default="Busy, Out of Office, Free"/>
 
       <aura:attribute name="subject" type="String" default = "Appointment"/>
-      <aura:attribute name="subjectChoice" type="String[]" default="Call, Email, Meeting, Appointment, Send Letter/Quote, Other"/>
+      <aura:attribute name="subjectChoice" type="String[]" default="Call, Email, Meeting, Send Letter/Quote, Other"/>
 
       <aura:attribute name="Day" type="String"/>
       <aura:attribute name="Month" type="String"/>
